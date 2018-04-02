@@ -1,7 +1,7 @@
 # **Poketext**
 ## *A text based Pokémon game inspired by [Zork](https://en.wikipedia.org/wiki/Zork)*
 This project is an attempt in creating a text based RPG Game, more especifically Pokémon. It uses 2D Matrices and random number generators to create a map with collidable walls as well as soundtrack based on the original game series.
---- 
+ 
 >**Disclaimer:** Game still runs very glitchy, so don't expect for everything to be working at 100%.
 # **Available Pokémons In-game**:
 * [Charmander](https://bulbapedia.bulbagarden.net/wiki/Charmander_(Pok%C3%A9mon))
@@ -22,6 +22,41 @@ This project is an attempt in creating a text based RPG Game, more especifically
     * *Rate: 1/36*
 
 >##### More will be added in due time
+
+# **Map Generation**
+>The map in the game is just a 2D Matrix filled with objects
+### **Map Syntax**
+* `0 = Grass Path`
+* `1 = Wall`
+* `2 = Pokécenter` 
+
+### **Map Template**
+<center>
+
+Row | Row | Row | Row | Row | Row
+--- | --- | --- | --- | --- | ---
+Object | Object | Object | Object | Object | Object
+Object | Object | Object | Object | Object | Object
+Object | Object | Object | Object | Object | Object
+Object | Object | Object | Object | Object | Object
+Object | Object | Object | Object | Object | Object
+Object | Object | Object | Object | Object | Object
+
+</center>
+
+### **Map Example**
+<center>
+
+Row | Row | Row | Row | Row | Row
+--- | --- | --- | --- | --- | ---
+1 | 0 | 0 | 0 | 0 | 0
+0 | 0 | 1 | 0 | 0 | 0
+0 | 1 | 0 | 1 | 0 | 0
+0 | 1 | 0 | 1 | 1 | 0
+0 | 0 | 0 | 0 | 0 | 0
+1 | 0 | 0 | 0 | 0 | 1
+
+</center>
 
 # **Commands**
 > Still adding more commands, keep an eye on this page
@@ -58,14 +93,13 @@ python path/to/file/poketext.py
 ```
 At this point we hope there are no bugs, however if you find one please report to us.
 
-
-
 # Known Bugs
 >**April 2nd 2018**
-* Pokécenter map does not load
-* Party Pokémon can only use the first move
-* Index Out of Bounds errors
-* Upon checking map, if there's a Pokémon in the same spot as the player, the battle sequence will begin
-* Problems generating random size maps *(will stay 6x6 until resolved)*
-* Music stops playing after one full music loop
-* Wild Pokémons won't attack you
+
+**1.** Pokécenter map does not load
+**2.** Party Pokémon can only use the first move
+**3.** Index Out of Bounds errors
+**4.** Upon checking map, if there's a Pokémon in the same spot as the player, the battle sequence will begin
+**5.** Problems generating random size maps *(will stay 6x6 until resolved)*
+**6.** Music stops playing after one full music loop
+**7.** Wild Pokémons won't attack you
