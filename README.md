@@ -93,13 +93,15 @@ python path/to/file/poketext.py
 ```
 At this point we hope there are no bugs, however if you find one please report to us.
 
+
+
 # Known Bugs
 >**April 2nd 2018**
+* Pokécenter map does not load
+* Party Pokémon can only use the first move
+* Index Out of Bounds errors
+* Upon checking map, if there's a Pokémon in the same spot as the player, the battle sequence will begin
+* Problems generating random size maps *(will stay 6x6 until resolved)*
+* Music stops playing after one full music loop
+* Wild Pokémons won't attack you
 
-**1.** Pokécenter map does not load
-**2.** Party Pokémon can only use the first move
-**3.** Index Out of Bounds errors
-**4.** Upon checking map, if there's a Pokémon in the same spot as the player, the battle sequence will begin
-**5.** Problems generating random size maps *(will stay 6x6 until resolved)*
-**6.** Music stops playing after one full music loop
-**7.** Wild Pokémons won't attack you
