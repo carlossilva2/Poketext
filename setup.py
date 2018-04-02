@@ -29,10 +29,8 @@ setup(name='Poketext',
       author='Carlos Silva',
       author_email='cmiguelrsilva@gmail.com',
       license='MIT',
-      packages=['poketext'],
+      packages=[],
       install_requires=[
           'pygame',
-          'random',
-          'time'
       ],
       zip_safe=False)

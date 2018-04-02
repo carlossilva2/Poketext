@@ -1,9 +1,9 @@
 # **Poketext**
-## *A text based Pokémon game*
+## *A text based Pokémon game inspired by [Zork](https://en.wikipedia.org/wiki/Zork)*
 This project is an attempt in creating a text based RPG Game, more especifically Pokémon. It uses 2D Matrices and random number generators to create a map with collidable walls as well as soundtrack based on the original game series.
 --- 
 >**Disclaimer:** Game still runs very glitchy, so don't expect for everything to be working at 100%.
-### **Available Pokémons In-game**:
+# **Available Pokémons In-game**:
 * [Charmander](https://bulbapedia.bulbagarden.net/wiki/Charmander_(Pok%C3%A9mon))
     * *Rate: 7/36*
 * [Charmeleon](https://bulbapedia.bulbagarden.net/wiki/Charmeleon_(Pok%C3%A9mon))
@@ -23,7 +23,7 @@ This project is an attempt in creating a text based RPG Game, more especifically
 
 >##### More will be added in due time
 
-### **Commands**
+# **Commands**
 > Still adding more commands, keep an eye on this page
 * Exit
     >Terminates the game
@@ -43,3 +43,29 @@ This project is an attempt in creating a text based RPG Game, more especifically
     >Depends on the specific **Pokémon Moveset**
 * Run
     >Exits from battle
+
+# Getting Started
+>### Install dependencies
+```bash
+python path/to/file/setup.py install
+```
+This will garantee you have the necessary dependencies from [PyPi](https://pypi.python.org/pypi) so you won't encounter import errors.
+
+
+>### Running the game
+```bash
+python path/to/file/poketext.py
+```
+At this point we hope there are no bugs, however if you find one please report to us.
+
+
+
+# Known Bugs
+>**April 2nd 2018**
+* Pokécenter map does not load
+* Party Pokémon can only use the first move
+* Index Out of Bounds errors
+* Upon checking map, if there's a Pokémon in the same spot as the player, the battle sequence will begin
+* Problems generating random size maps *(will stay 6x6 until resolved)*
+* Music stops playing after one full music loop
+* Wild Pokémons won't attack you
