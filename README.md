@@ -96,12 +96,13 @@ At this point we hope there are no bugs, however if you find one please report t
 
 
 # Known Bugs
+>**April 4th 2018**
+* Damage output very high
 >**April 2nd 2018**
 * Pokécenter map does not load
-* Party Pokémon can only use the first move
+* ~~Party Pokémon can only use the first move~~
 * Index Out of Bounds errors
-* Upon checking map, if there's a Pokémon in the same spot as the player, the battle sequence will begin
+* ~~Upon checking map, if there's a Pokémon in the same spot as the player, the battle sequence will begin~~
 * Problems generating random size maps *(will stay 6x6 until resolved)*
 * Music stops playing after one full music loop
-* Wild Pokémons won't attack you
-
+* ~~Wild Pokémons won't attack you~~

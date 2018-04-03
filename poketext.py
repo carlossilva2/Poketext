@@ -73,10 +73,10 @@ pokemons = [
             "Status": None,
             "Alive": True,
             "Moveset": [
-                {"Move": "Surf", "Type": "Water", "Power": 95, "Accuracy": 100, "PP": 15, "PP_used": 0},
-                {"Move": "Ice Beam", "Type": "Ice", "Power": 95, "Accuracy": 100, "PP": 10, "PP_used": 0},
-                {"Move": "Mud Shot", "Type": "Ground", "Power": 55, "Accuracy": 95, "PP": 15, "PP_used": 0},
-                {"Move": "Earthquake", "Type": "Ground", "Power": 110, "Accuracy": 100, "PP": 10, "PP_used": 0}
+                {"Move": "Surf","Category": "Special", "Type": "Water", "Power": 95, "Accuracy": 100, "PP": 15, "PP_used": 0},
+                {"Move": "Ice Beam","Category": "Special", "Type": "Ice", "Power": 95, "Accuracy": 100, "PP": 10, "PP_used": 0},
+                {"Move": "Mud Shot","Category": "Special", "Type": "Ground", "Power": 55, "Accuracy": 95, "PP": 15, "PP_used": 0},
+                {"Move": "Earthquake","Category": "Physical", "Type": "Ground", "Power": 110, "Accuracy": 100, "PP": 10, "PP_used": 0}
                 ]
         }
     },
@@ -167,10 +167,10 @@ pokemons = [
             "Status": None,
             "Alive": True,
             "Moveset": [
-                {"Move": None, "Type": "Water", "Power": 80, "Accuracy": 100, "PP": 15, "PP_used": 0},
-                {"Move": None, "Type": "Flying", "Power": 60, "Accuracy": 100, "PP": 35, "PP_used": 0},
-                {"Move": None, "Type": "Normal", "Power": 150, "Accuracy": 90, "PP": 5, "PP_used": 0},
-                {"Move": None, "Type": "Dragon", "Power": 80, "Accuracy": 100, "PP": 15, "PP_used": 0}
+                {"Move": None,"Category": "Physical", "Type": "Water", "Power": 80, "Accuracy": 100, "PP": 15, "PP_used": 0},
+                {"Move": None,"Category": "Physical", "Type": "Flying", "Power": 60, "Accuracy": 100, "PP": 35, "PP_used": 0},
+                {"Move": None,"Category": "Physical", "Type": "Normal", "Power": 150, "Accuracy": 90, "PP": 5, "PP_used": 0},
+                {"Move": None,"Category": "Physical", "Type": "Dragon", "Power": 80, "Accuracy": 100, "PP": 15, "PP_used": 0}
                 ]
         }
     },
@@ -214,10 +214,10 @@ pokemons = [
             "Status": None,
             "Alive": True,
             "Moveset": [
-                {"Move": None, "Type": "Water", "Power": 80, "Accuracy": 100, "PP": 15, "PP_used": 0},
-                {"Move": None, "Type": "Flying", "Power": 60, "Accuracy": 100, "PP": 35, "PP_used": 0},
-                {"Move": None, "Type": "Normal", "Power": 150, "Accuracy": 90, "PP": 5, "PP_used": 0},
-                {"Move": None, "Type": "Dragon", "Power": 80, "Accuracy": 100, "PP": 15, "PP_used": 0}
+                {"Move": None,"Category": "Physical", "Type": "Water", "Power": 80, "Accuracy": 100, "PP": 15, "PP_used": 0},
+                {"Move": None,"Category": "Physical", "Type": "Flying", "Power": 60, "Accuracy": 100, "PP": 35, "PP_used": 0},
+                {"Move": None,"Category": "Physical", "Type": "Normal", "Power": 150, "Accuracy": 90, "PP": 5, "PP_used": 0},
+                {"Move": None,"Category": "Physical", "Type": "Dragon", "Power": 80, "Accuracy": 100, "PP": 15, "PP_used": 0}
                 ]
         }
     },
@@ -261,10 +261,10 @@ pokemons = [
             "Status": None,
             "Alive": True,
             "Moveset": [
-                {"Move": None, "Type": "Water", "Power": 80, "Accuracy": 100, "PP": 15, "PP_used": 0},
-                {"Move": None, "Type": "Flying", "Power": 60, "Accuracy": 100, "PP": 35, "PP_used": 0},
-                {"Move": None, "Type": "Normal", "Power": 150, "Accuracy": 90, "PP": 5, "PP_used": 0},
-                {"Move": None, "Type": "Dragon", "Power": 80, "Accuracy": 100, "PP": 15, "PP_used": 0}
+                {"Move": None,"Category": "Physical", "Type": "Water", "Power": 80, "Accuracy": 100, "PP": 15, "PP_used": 0},
+                {"Move": None,"Category": "Physical", "Type": "Flying", "Power": 60, "Accuracy": 100, "PP": 35, "PP_used": 0},
+                {"Move": None,"Category": "Physical", "Type": "Normal", "Power": 150, "Accuracy": 90, "PP": 5, "PP_used": 0},
+                {"Move": None,"Category": "Physical", "Type": "Dragon", "Power": 80, "Accuracy": 100, "PP": 15, "PP_used": 0}
                 ]
         }
     },
@@ -308,10 +308,10 @@ pokemons = [
             "Status": None,
             "Alive": True,
             "Moveset": [
-                {"Move": None, "Type": "Water", "Power": 80, "Accuracy": 100, "PP": 15, "PP_used": 0},
-                {"Move": None, "Type": "Flying", "Power": 60, "Accuracy": 100, "PP": 35, "PP_used": 0},
-                {"Move": None, "Type": "Normal", "Power": 150, "Accuracy": 90, "PP": 5, "PP_used": 0},
-                {"Move": None, "Type": "Dragon", "Power": 80, "Accuracy": 100, "PP": 15, "PP_used": 0}
+                {"Move": None,"Category": "Physical", "Type": "Water", "Power": 80, "Accuracy": 100, "PP": 15, "PP_used": 0},
+                {"Move": None,"Category": "Physical", "Type": "Flying", "Power": 60, "Accuracy": 100, "PP": 35, "PP_used": 0},
+                {"Move": None,"Category": "Physical", "Type": "Normal", "Power": 150, "Accuracy": 90, "PP": 5, "PP_used": 0},
+                {"Move": None,"Category": "Physical", "Type": "Dragon", "Power": 80, "Accuracy": 100, "PP": 15, "PP_used": 0}
                 ]
         }
     },
@@ -355,10 +355,10 @@ pokemons = [
             "Status": None,
             "Alive": True,
             "Moveset": [
-                {"Move": None, "Type": "Water", "Power": 80, "Accuracy": 100, "PP": 15, "PP_used": 0},
-                {"Move": None, "Type": "Flying", "Power": 60, "Accuracy": 100, "PP": 35, "PP_used": 0},
-                {"Move": None, "Type": "Normal", "Power": 150, "Accuracy": 90, "PP": 5, "PP_used": 0},
-                {"Move": None, "Type": "Dragon", "Power": 80, "Accuracy": 100, "PP": 15, "PP_used": 0}
+                {"Move": None,"Category": "Physical", "Type": "Water", "Power": 80, "Accuracy": 100, "PP": 15, "PP_used": 0},
+                {"Move": None,"Category": "Physical", "Type": "Flying", "Power": 60, "Accuracy": 100, "PP": 35, "PP_used": 0},
+                {"Move": None,"Category": "Physical", "Type": "Normal", "Power": 150, "Accuracy": 90, "PP": 5, "PP_used": 0},
+                {"Move": None,"Category": "Physical", "Type": "Dragon", "Power": 80, "Accuracy": 100, "PP": 15, "PP_used": 0}
                 ]
         }
     },
@@ -402,14 +402,36 @@ pokemons = [
             "Status": None,
             "Alive": True,
             "Moveset": [
-                {"Move": None, "Type": "Water", "Power": 80, "Accuracy": 100, "PP": 15, "PP_used": 0},
-                {"Move": None, "Type": "Flying", "Power": 60, "Accuracy": 100, "PP": 35, "PP_used": 0},
-                {"Move": None, "Type": "Normal", "Power": 150, "Accuracy": 90, "PP": 5, "PP_used": 0},
-                {"Move": None, "Type": "Dragon", "Power": 80, "Accuracy": 100, "PP": 15, "PP_used": 0}
+                {"Move": None,"Category": "Physical", "Type": "Water", "Power": 80, "Accuracy": 100, "PP": 15, "PP_used": 0},
+                {"Move": None,"Category": "Physical", "Type": "Flying", "Power": 60, "Accuracy": 100, "PP": 35, "PP_used": 0},
+                {"Move": None,"Category": "Physical", "Type": "Normal", "Power": 150, "Accuracy": 90, "PP": 5, "PP_used": 0},
+                {"Move": None,"Category": "Physical", "Type": "Dragon", "Power": 80, "Accuracy": 100, "PP": 15, "PP_used": 0}
                 ]
         }
     }
     ]
+
+damageChart = [
+    [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0.5, 0, 1, 1, 0.5],
+    [1, 0.5, 0.5, 1, 2, 2, 1, 1, 1, 1, 1, 2, 0.5, 1, 0.5, 1, 2],
+    [1, 2, 0.5, 1, 0.5, 1, 1, 1, 2, 1, 1, 1, 2, 1, 0.5, 1, 1],
+    [1, 1, 2, 0.5, 0.5, 1, 1, 1, 0, 2, 1, 1, 1, 1, 0.5, 1, 1],
+    [1, 0.5, 2, 1, 0.5, 1, 1, 0.5, 2, 0.5, 1, 0.5, 2, 1, 0.5, 1, 0.5],
+    [1, 0.5, 0.5, 1, 2, 0.5, 1, 1, 2, 2, 1, 1, 1, 1, 2, 1, 0.5],
+    [2, 1, 1, 1, 1, 2, 1, 0.5, 1, 0.5, 0.5, 0.5, 2, 0, 1, 2, 2],
+    [1, 1, 1, 1, 2, 1, 1, 0.5, 0.5, 1, 1, 1, 0.5, 0.5, 1, 1, 0],
+    [1, 2, 1, 2, 0.5, 1, 1, 2, 1, 0, 1, 0.5, 2, 1, 1, 1, 2],
+    [1, 1, 1, 0.5, 2, 1, 2, 1, 1, 1, 1, 2, 0.5, 1, 1, 1, 0.5],
+    [1, 1, 1, 1, 1, 1, 2, 2, 1, 1, 0.5, 1, 1, 1, 1, 0, 0.5],
+    [1, 0.5, 1, 1, 2, 1, 0.5, 0.5, 1, 0.5, 2, 1, 1, 0.5, 1, 2, 0.5],
+    [1, 2, 1, 1, 1, 2, 0.5, 1, 0.5, 2, 1, 2, 1, 1, 1, 1, 0.5],
+    [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 2, 1, 0.5, 1],
+    [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 0.5],
+    [1, 1, 1, 1, 1, 1, 0.5, 1, 1, 1, 2, 1, 1, 2, 1, 0.5, 1],
+    [1, 0.5, 0.5, 0.5, 1, 2, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 0.5]    
+]
+
+damageLegend = ["Normal", "Fire", "Water", "Electric", "Grass", "Ice", "Fighting", "Poison", "Ground", "Flying", "Psychic", "Bug", "Rock", "Ghost", "Dragon", "Dark", "Steel"]
 
 worldmap = [
     [{"TYPE": "WALL", "POKES": None}, {"TYPE": "GRASS", "POKES": None}, {"TYPE": "GRASS", "POKES": None}, {"TYPE": "GRASS", "POKES": 1}, {"TYPE": "GRASS", "POKES": None}, {"TYPE": "GRASS", "POKES": None}],
@@ -448,13 +470,13 @@ stopT = time()
 print("Stats took {0} seconds to calculate".format(stopT-startT))
 #print("Movements:", movements)
 
-def placePlayer(map):
+def placePlayer(mapz):
     x = randint(0, worldSize-1)
     y = randint(0, worldSize-1)
-    while int(worldmap[y][x]["TYPE"]) == 1:
+    while int(mapz[y][x]["TYPE"]) == 1:
         x = randint(0, worldSize-1)
         y = randint(0, worldSize-1)
-    print("POS: {} {}".format(x,y))
+    #print("POS: {} {}".format(x,y))
     return x,y
 
 def generateWorld():
@@ -472,25 +494,34 @@ def generateWorld():
         for j in range(0, worldSize):
             worldmap[i][j]["TYPE"] = randint(0, 1)
             #worldmap[i][j]["POKES"] = possibility[randint(0, len(possibility)-1)]
-            print(worldmap[i][j]["TYPE"]," ", end='')
+            #print(worldmap[i][j]["TYPE"]," ", end='')
             if int(worldmap[i][j]["TYPE"]) == 0:
                 grass = grass + 1
             else:
                 walls = walls + 1
-        print("")
-    print("")
+        #print("")
+    #print("")
     #print(grass, walls)            
     #if walls >= grass:
     #    return generateWorld()
 
-def placeCenter():
-    pX = randint(0, 5)
-    pY = randint(0, 5)
-    worldmap[pY][pX]["TYPE"] = 2
-    worldmap[pY][pX]["POKES"] = None
-    worldmap[pY + 1][pX]["TYPE"] = 0
-    worldmap[pY + 1][pX - 1]["TYPE"] = 0
-    worldmap[pY + 1][pX + 1]["TYPE"] = 0
+def placeCenter(mapz):
+    n2 = 0
+    for i in range(0, len(mapz) - 1):
+        for j in range(0, len(mapz) - 1):
+            if mapz[i][j]["TYPE"] == 2:
+                n2 = n2 + 1
+    try:
+        pX = randint(0, 5)
+        pY = randint(0, 5)
+        if n2 <= 1:
+            mapz[pY][pX]["TYPE"] = 2
+            mapz[pY][pX]["POKES"] = None
+            mapz[pY + 1][pX]["TYPE"] = 0
+            mapz[pY + 1][pX - 1]["TYPE"] = 0
+            mapz[pY + 1][pX + 1]["TYPE"] = 0
+    except IndexError:
+        placeCenter(mapz)
     return pX, pY
 
 def teleportPlayer(mapz,x, y, pokeX, pokeY):
@@ -547,24 +578,27 @@ def generateWorld2():
     if walls >= grass:
         return generateWorld()
             
-def movCheck(map, x, y):
-    mov_options = ["exit","check map"]
-    if ((int(worldmap[y + 1][x]["TYPE"]) == 0) and y + 1 <= (worldSize - 1)):
-         mov_options.append("down")
-    if ((int(worldmap[y - 1][x]["TYPE"]) == 0) and y - 1 >= 0):
-         mov_options.append("up")
-    if ((int(worldmap[y][x + 1]["TYPE"]) == 0) and x + 1 <= (worldSize - 1)):
-         mov_options.append("right")
-    if ((int(worldmap[y][x - 1]["TYPE"]) == 0) and x - 1 >= 0):
-         mov_options.append("left")
-    if ((int(worldmap[y - 1][x + 1]["TYPE"]) == 0) and x + 1 <= (worldSize - 1) and y - 1 >= 0):
-         mov_options.append("upright")
-    if ((int(worldmap[y - 1][x - 1]["TYPE"]) == 0) and x - 1 >= 0 and y - 1 >= 0):
-         mov_options.append("upleft")
-    if ((int(worldmap[y + 1][x - 1]["TYPE"]) == 0) and x - 1 >= 0 and y + 1 <= (worldSize - 1)):
-         mov_options.append("downleft")
-    if ((int(worldmap[y + 1][x + 1]["TYPE"]) == 0) and x + 1 <= (worldSize - 1) and y + 1 <= (worldSize - 1)):
-         mov_options.append("downright")            
+def movCheck(mapz, x, y):
+    mov_options = ["exit", "check map"]
+    try:
+        if ((int(mapz[y + 1][x]["TYPE"]) == 0) and y + 1 <= (worldSize - 1)):
+            mov_options.append("down")
+        if ((int(mapz[y - 1][x]["TYPE"]) == 0) and y - 1 >= 0):
+            mov_options.append("up")
+        if ((int(mapz[y][x + 1]["TYPE"]) == 0) and x + 1 <= (worldSize - 1)):
+            mov_options.append("right")
+        if ((int(mapz[y][x - 1]["TYPE"]) == 0) and x - 1 >= 0):
+            mov_options.append("left")
+        if ((int(mapz[y - 1][x + 1]["TYPE"]) == 0) and x + 1 <= (worldSize - 1) and y - 1 >= 0):
+            mov_options.append("upright")
+        if ((int(mapz[y - 1][x - 1]["TYPE"]) == 0) and x - 1 >= 0 and y - 1 >= 0):
+            mov_options.append("upleft")
+        if ((int(mapz[y + 1][x - 1]["TYPE"]) == 0) and x - 1 >= 0 and y + 1 <= (worldSize - 1)):
+            mov_options.append("downleft")
+        if ((int(mapz[y + 1][x + 1]["TYPE"]) == 0) and x + 1 <= (worldSize - 1) and y + 1 <= (worldSize - 1)):
+            mov_options.append("downright")
+    except IndexError:
+        movCheck(mapz,x,y)    
     return mov_options
 
 def movCheckCenter(mov_options,map, x, y):
@@ -624,10 +658,39 @@ def batCheck(x,y):
 def getWildPoke(x,y):
    return worldmap[y][x]["POKES"]
 
-def damageCalc(poke, move):
-    iv = poke["iv"]["SpA"]/100
-    min_iv = iv * 0.38
-    return round(move + move * random.uniform(min_iv,iv))
+def damageCalc(poke, move, target):
+    A = 0
+    D = 0
+    if move["Category"] == "Special":
+        A = poke["combat"]["SpA"]
+        D = target["combat"]["SpD"]
+    if move["Category"] == "Physical":
+        A = poke["combat"]["Atk"]
+        D = target["combat"]["Def"]
+    probs = [2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    crit = int(probs[randint(0, len(probs) - 1)])
+    if crit == 2:
+        print("CRITICAL HIT")
+    randomN = round(random.uniform(0.85, 1.00),2)
+    stab = 1
+    if move["Type"] in poke["type"]:
+        stab = 1.5
+    effectiveness = 1
+    movIndex = damageLegend.index(move["Type"])
+    indexType1 = 1; indexType2 = 1
+    if len(target["type"]) > 1:
+        indexType1 = damageLegend.index(target["type"][0])
+        indexType2 = damageLegend.index(target["type"][1])
+        effectiveness = damageChart[movIndex][indexType1] * damageChart[movIndex][indexType2]
+    else:
+        indexType1 = damageLegend.index(target["type"][0])
+        effectiveness = damageChart[movIndex][indexType1]
+    modifier = crit * randomN * stab * effectiveness
+    #print("Crit:",crit,"\nRandom:",randomN,"\nSTAB:",stab,"\nEffectiveness:",effectiveness,"\nTotal:",modifier)
+    part1 = (2 * int(poke["level"])) / 5
+    part2 = ((part1 + 2) * int(move["Power"]) * (A / D))
+    damage = ((part2 / 50) + 2) * modifier    
+    return round(damage)
 
 def checkMap(maps, x, y, size):
     a = maps.copy()
@@ -641,7 +704,7 @@ def checkMap(maps, x, y, size):
 generateWorld()
 map1 = worldmap
 placePoke()
-pokeX,pokeY = placeCenter()
+pokeX,pokeY = placeCenter(worldmap)
 #print(worldmap)
 
 x, y = placePlayer(worldmap)
@@ -660,6 +723,7 @@ py.mixer.init()
 py.mixer.music.load("Media/Route2.mp3")
 py.mixer.music.play(loops=-1)
 while alive:
+    battle_sequence = True
     if music < 1:
         py.mixer.music.load("Media/Route2.mp3")
         py.mixer.music.play(loops=-1)
@@ -684,11 +748,14 @@ while alive:
             break
         if option == "check map":
             checkMap(worldmap, x, y, worldSize)
+            battle_sequence = False
+        if option not in mov_options:
+            battle_sequence = False
         gX, gY = doMovement(option, mov_options, x, y)
         x = gX; y = gY
         check = batCheck(x, y)
         #--------------------COMBAT--------------------
-        if check == True and alive:
+        if (check == True and alive and battle_sequence):
             run = True
             music = 0
             poke = pokemons[int(getWildPoke(x, y))]
@@ -704,22 +771,50 @@ while alive:
             print("A wild {0} appeared".format(poke["name"]))
             while(poke["combat"]["Alive"] == True or run):
                 py.mixer.music.queue("Media/Pokemon.mp3")
+                #-------------------User------------------------
                 print(comb_options)
                 opt = input("Choose: ")
                 if opt == "attack":
-                    print(party[0]["combat"]["Moveset"][0]["Move"])
+                    print(party[0]["combat"]["Moveset"][0]["Move"],party[0]["combat"]["Moveset"][1]["Move"], party[0]["combat"]["Moveset"][2]["Move"], party[0]["combat"]["Moveset"][3]["Move"])
                     atk = input("Choose an attack: ")
-                    if atk == "surf":
+                    if atk == party[0]["combat"]["Moveset"][0]["Move"].lower():
                         print(party[0]["name"],"used",party[0]["combat"]["Moveset"][0]["Move"])
-                        dmg = damageCalc(party[0], party[0]["combat"]["Moveset"][0]["Power"])
+                        dmg = damageCalc(party[0], party[0]["combat"]["Moveset"][0], poke)
                         poke["combat"]["Health"] = poke["combat"]["Health"] - dmg
-                        if poke["combat"]["Health"] < 0:
-                            poke["combat"]["Health"] = 0
-                            poke["combat"]["Alive"] = False
-                            print("You defeated {}".format(poke["name"]))
-                            break
                         print("You took {} points".format(dmg))
-                        print("{} has {} points remaining".format(poke["name"],poke["combat"]["Health"]))
+                    if atk == party[0]["combat"]["Moveset"][1]["Move"].lower():
+                        print(party[0]["name"],"used",party[0]["combat"]["Moveset"][1]["Move"])
+                        dmg = damageCalc(party[0], party[0]["combat"]["Moveset"][1], poke)
+                        poke["combat"]["Health"] = poke["combat"]["Health"] - dmg
+                        print("You took {} points".format(dmg))
+                    if atk == party[0]["combat"]["Moveset"][2]["Move"].lower():
+                        print(party[0]["name"],"used",party[0]["combat"]["Moveset"][2]["Move"])
+                        dmg = damageCalc(party[0], party[0]["combat"]["Moveset"][2], poke)
+                        poke["combat"]["Health"] = poke["combat"]["Health"] - dmg
+                        print("You took {} points".format(dmg))
+                    if atk == party[0]["combat"]["Moveset"][3]["Move"].lower():
+                        print(party[0]["name"],"used",party[0]["combat"]["Moveset"][3]["Move"])
+                        dmg = damageCalc(party[0], party[0]["combat"]["Moveset"][3], poke)
+                        poke["combat"]["Health"] = poke["combat"]["Health"] - dmg
+                        print("You took {} points".format(dmg))   
+                    if poke["combat"]["Health"] <= 0:
+                        poke["combat"]["Health"] = 0
+                        poke["combat"]["Alive"] = False
+                        print("You defeated {}".format(poke["name"]))
+                        break
+                    print("{} has {} points remaining".format(poke["name"], poke["combat"]["Health"]))
+                #------------------Wild Pokemon-------------------
+                    wildMove = randint(0, 3)
+                    print(poke["name"], "used", poke["combat"]["Moveset"][wildMove]["Move"])
+                    damage = damageCalc(poke, poke["combat"]["Moveset"][wildMove], party[0])
+                    party[0]["combat"]["Damage"] = party[0]["combat"]["Damage"] + damage
+                    print("{} took {} points".format(poke["name"], damage))
+                    if party[0]["combat"]["Damage"] >= party[0]["combat"]["Health"]:
+                        print("You ran out of usable Pokémon, please restart the game!")
+                        alive = False
+                        run = False
+                        break
+                    print("{} has {} points remaining".format(party[0]["name"], party[0]["combat"]["Health"] - damage))
                 if opt == "run":
                     run = False
                     print("Got away safely!")
